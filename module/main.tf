@@ -14,10 +14,10 @@ provider "aws" {
 
 resource "null_resource" "test" {
   provisioner "local-exec" {
-      command = "echo 'Hello, World!'"
+    command = "echo 'Hello, World!'"
   }
   triggers = {
-      always_run = timestamp()
+    always_run = timestamp()
   }
 }
 
