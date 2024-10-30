@@ -13,12 +13,12 @@ provider "aws" {
 
 
 resource "null_resource" "test" {
-    provisioner "local-exec" {
-        command = "echo 'Hello, World!'"
-    }
-    triggers = {
-        always_run = timestamp()
-    }
+  provisioner "local-exec" {
+      command = "echo 'Hello, World!'"
+  }
+  triggers = {
+      always_run = timestamp()
+  }
 }
 
 #output "bucket_name" {
