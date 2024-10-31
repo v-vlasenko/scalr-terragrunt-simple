@@ -16,7 +16,7 @@ provider "aws" {
 # }
 
 
-resource "null_resource" "test" {
+resource "null_resource2" "test" {
   provisioner "local-exec" {
     command = "echo 'Hello, World!'"
   }
