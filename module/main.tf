@@ -1,11 +1,10 @@
-variable 
-"region" {
+variable "region" {
 
 }
 
 variable "bucket_name" {}
 
-provider "aws" {
+provider "aws"             {
                 region = var.region
 }
 
