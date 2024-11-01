@@ -2,8 +2,6 @@ variable "region" {
 
 }
 
-
-
 variable "test" {}
 
 provider "aws" {
@@ -16,7 +14,7 @@ provider "aws" {
 # }
 
 
-resource "null_resource1" "test" {
+resource "null_resource" "test" {
   provisioner "local-exec" {
     command = "echo 'Hello, World!'"
   }
