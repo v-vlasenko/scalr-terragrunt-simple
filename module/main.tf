@@ -6,7 +6,7 @@ variable "region" {
 
 variable "test" {}
 
-provider "aws" {
+      provider "aws" {
   region = var.region
 }
 
