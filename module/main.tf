@@ -6,8 +6,8 @@ variable "region" {
 
 variable "test" {}
 
-provider "aws" {
-  region = var.region
+provider "aws"                  {
+          region = var.region
 }
 
 # resource "aws_s3_bucket" "test_bucket" {
@@ -16,7 +16,7 @@ provider "aws" {
 # }
 
 
-resource "null_resource" "test" {
+resource "null_resource1" "test" {
   provisioner "local-exec" {
     command = "echo 'Hello, World!'"
   }
