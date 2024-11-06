@@ -1,7 +1,6 @@
 terraform {
-  source = "/opt/workdir/module//"
+  source = "./../../module//"
 }
-
 
 
 inputs = {
