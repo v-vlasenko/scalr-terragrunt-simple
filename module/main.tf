@@ -14,7 +14,7 @@ provider "aws" {
 # }
 
 module "one" {
-	source  = "https://penja.scalr.io/env-v0ojkc698lr47ibhs/one/double"
+	source  = "tfr:penja.scalr.io/env-v0ojkc698lr47ibhs/one/double"
 	version = "1.0.3"
 }
 
