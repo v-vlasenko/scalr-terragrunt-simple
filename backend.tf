@@ -2,7 +2,7 @@
 terraform {
   backend "remote" {
     organization = "env-v0ok759at59erieho"
-    workspaces {
+    workspaces  {
       name = "scalr-terragrunt-simple"
     }
     hostname = "mainiacp.ape.testenv.scalr.dev"
