@@ -7,3 +7,4 @@ remote_state {
       name = "${path_relative_to_include()}"
     }
   }
+}
