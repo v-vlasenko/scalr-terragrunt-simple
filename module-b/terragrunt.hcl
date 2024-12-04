@@ -1,10 +1,21 @@
 terraform {
-  source = "../../"
+  source = "../"
 }
 
 dependencies {
   paths = ["../module-a"]
 }
+
+dependency "module-a" {
+  config_path = "../module-a"
+  mock_outputs = {
+    resource_output = {
+      module_name = "mock-module-a"
+      resource_id = "mock-resource-001"
+    }
+  }
+}
+
 
 inputs = {
   module_name = "module-b"
