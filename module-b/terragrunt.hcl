@@ -3,7 +3,7 @@ include {
 }
 
 terraform {
-  source = "../"
+  source = "../main.tf"
 }
 
 dependencies {
