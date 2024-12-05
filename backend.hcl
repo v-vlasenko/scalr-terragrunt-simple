@@ -4,7 +4,7 @@ generate "backend" {
   contents = <<EOF
 terraform {
   backend "remote" {
-    organization = "env-v0ok759at59erieho"
+    organization = "env-v0ok8alelln3k97hf"
     workspaces  {
       name = "${basename(get_terragrunt_dir())}"
     }
