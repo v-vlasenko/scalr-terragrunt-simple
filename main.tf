@@ -1,11 +1,13 @@
 variable "module_name" {
   description = "The name of the module"
+  default = "test_module_name"
   type        = string
 }
 
 variable "resource_id" {
   description = "A unique identifier for the resource"
   type        = string
+  default = "test_resource_id"
 }
 
 variable "dependency_info" {
