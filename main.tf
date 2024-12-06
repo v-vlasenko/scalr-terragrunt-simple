@@ -21,7 +21,6 @@ resource "null_resource" "placeholder" {
     module_name     = var.module_name
     resource_id     = var.resource_id
     dependency_data = jsonencode(var.dependency_info)
-    timestamp       = timestamp()
   }
 
   provisioner "local-exec" {
