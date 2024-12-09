@@ -3,19 +3,13 @@ terraform {
   source = "./module"
 }
 
-
-generate "remote_state" {
-  path      = "backend.tf"
-  if_exists = "overwrite_terragrunt"
-  contents = <<EOF
-terraform {
-  backend "remote" {
+remote_state {
+  backend = "remote"
+  config = {
     hostname = "mainiacp.ape.testenv.scalr.dev"
     organization = "tfenv1"
     workspaces {
       name = "remote"
     }
   }
-}
-EOF
 }
