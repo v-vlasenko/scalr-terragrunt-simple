@@ -4,12 +4,13 @@ terraform {
 }
 
 remote_state {
-  backend = "remote"
+  backend = "s3"
+
   config = {
-    hostname = "mainiacp.ape.testenv.scalr.dev"
-    organization = "tfenv1"
-    workspaces = {
-      name = "remote"
-    }
+    bucket         = "alfiia-terraform-state-bucket"
+    key            = "global/s3/terraform.tfstate"  
+    region         = "us-west-2"
+    encrypt        = true                          
+    dynamodb_table = "terraform-locks"     
   }
 }
