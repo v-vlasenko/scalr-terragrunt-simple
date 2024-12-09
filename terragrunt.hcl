@@ -12,6 +12,7 @@ remote_state {
     region         = "us-west-2"
     encrypt        = true                          
     dynamodb_table = "terraform-locks"     
+    disable_bucket_update = true
   }
-  disable_bucket_update = true
+ 
 }
