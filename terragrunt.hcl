@@ -8,7 +8,7 @@ remote_state {
   config = {
     hostname = "mainiacp.ape.testenv.scalr.dev"
     organization = "tfenv1"
-    workspaces {
+    workspaces = {
       name = "remote"
     }
   }
