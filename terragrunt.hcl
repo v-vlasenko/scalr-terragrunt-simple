@@ -13,4 +13,5 @@ remote_state {
     encrypt        = true                          
     dynamodb_table = "terraform-locks"     
   }
+  skip_bucket_update = true
 }
