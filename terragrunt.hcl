@@ -11,7 +11,7 @@ remote_state {
     key            = "global/s3/terraform.tfstate"  
     region         = "us-west-2"
     encrypt        = true                          
-    dynamodb_table = "terraform-locks"     
+    #dynamodb_table = "terraform-locks"     
     disable_bucket_update = true
   }
  
