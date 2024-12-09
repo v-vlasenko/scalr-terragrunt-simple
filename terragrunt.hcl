@@ -3,15 +3,13 @@ terraform {
   source = "./module"
 }
 
-remote_state {
-  backend = "remote"
-  config = {
+
+terraform {
+  backend "remote" {
     hostname = "mainiacp.ape.testenv.scalr.dev"
     organization = "tfenv1"
-
-    workspaces = {
+    workspaces {
       name = "remote"
     }
   }
-
 }
