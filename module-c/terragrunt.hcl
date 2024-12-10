@@ -6,6 +6,10 @@ include {
   path = find_in_parent_folders("backend.hcl")
 }
 
+locals {
+  bucket_name = 'module-c-gt0tqe1t';
+}
+
 
 dependencies {
   paths = ["../module-b"]

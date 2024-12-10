@@ -10,6 +10,11 @@ dependencies {
   paths = ["../module-a"]
 }
 
+locals {
+  bucket_name = 'module-b-bpktp7w8';
+}
+
+
 dependency "module-a" {
   config_path = "../module-a"
   mock_outputs = {

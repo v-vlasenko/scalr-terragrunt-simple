@@ -16,10 +16,9 @@ terraform {
 EOF
 }
 
+
 locals {
-  module_name = {basename(get_terragrunt_dir())}
-  bucket_name = "{basename(get_terragrunt_dir())}-${local.bucket_sufix}"
-  bucket_sufix    = "override_on_module_level"  
+  module_name = "${basename(get_terragrunt_dir())}"
   region = "us-east-1"
 }
 
