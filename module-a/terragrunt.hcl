@@ -7,7 +7,7 @@ terraform {
 }
 
 locals {
-  bucket_name = 'module-a-18mclxcv';
+  bucket_name = "module-a-18mclxcv";
 }
 
 inputs = {

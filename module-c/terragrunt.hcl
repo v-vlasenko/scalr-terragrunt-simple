@@ -7,7 +7,7 @@ include {
 }
 
 locals {
-  bucket_name = 'module-c-gt0tqe1t';
+  bucket_name = "module-c-gt0tqe1t";
 }
 
 
