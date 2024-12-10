@@ -11,7 +11,7 @@ dependencies {
 }
 
 locals {
-  bucket_name = "module-b-bpktp7w8";
+  bucket_name = "module-b-bpktp7w8"
 }
 
 
