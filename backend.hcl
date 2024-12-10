@@ -18,6 +18,7 @@ EOF
 
 
 locals {
+  bucket_name = "override"
   module_name = "${basename(get_terragrunt_dir())}"
   region = "us-east-1"
 }
