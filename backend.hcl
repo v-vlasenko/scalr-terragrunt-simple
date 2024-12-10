@@ -8,11 +8,10 @@ terraform {
   backend "s3" {
     bucket         = "ape-terragrunt-run-all-bucket-18mclxcv"
     key            = "${path_relative_to_include()}/terraform.tfstate"
-    region         = "${local.region}"
+    region         = "us-east-1"
     encrypt        = true
     dynamodb_table = "ape-terragrunt-run-all-bucket-locks"
   }
 }
 EOF
 }
-
