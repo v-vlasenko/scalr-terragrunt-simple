@@ -17,6 +17,7 @@ variable "dependency_info" {
 }
 
 resource "null_resource" "placeholder" {
+  count = 2
   triggers = {
     module_name     = var.module_name
     resource_id     = var.resource_id
