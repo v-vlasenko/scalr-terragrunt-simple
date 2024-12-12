@@ -9,6 +9,6 @@ include {
 
 
 inputs = {
-  module_name = "module-c"
+  module_name = "module-f"
   resource_id = "resource-003"
 }
