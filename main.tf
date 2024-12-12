@@ -16,6 +16,16 @@ variable "dependency_info" {
   default     = {}
 }
 
+resource "null_resource" "random_sleep_example_shuf" {
+  triggers = {
+    force_recreation = timestamp()
+  }
+  provisioner "local-exec" {
+    command = "sleep $(shuf -i 1-20 -n 1)"
+  }
+}
+
+
 resource "null_resource" "placeholder" {
   count = 2
   triggers = {
