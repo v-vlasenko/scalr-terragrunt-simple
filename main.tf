@@ -28,7 +28,7 @@ resource "null_resource" "random_sleep_example_shuf" {
 
 
 resource "null_resource" "placeholder" {
-  count = 2
+  count = 3
   triggers = {
     module_name     = var.module_name
     resource_id     = var.resource_id
