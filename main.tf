@@ -13,7 +13,8 @@ variable "resource_id" {
 variable "dependency_info" {
   description = "Information from dependent modules"
   type        = map(string)
-  default     = {}
+  nullable    = true
+  default     = null
 }
 
 resource "null_resource" "random_sleep_example_shuf" {
