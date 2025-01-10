@@ -6,9 +6,9 @@ generate "backend" {
   contents = <<EOF
 terraform {
   backend "s3" {
-    bucket         = "alfiia-terraform-state-bucket"
+    bucket         = "terra-vlad-bucket"
     key            = "global/s3/terraform.tfstate"
-    region         = "us-west-2"
+    region         = "us-east-1"
     encrypt        = true
    // dynamodb_table = "terraform-locks"
   }
