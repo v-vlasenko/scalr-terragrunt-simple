@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4c30da3-edcd-40fc-afe1-641c11327435" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/base/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-a/terragrunt.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terragrunt-module1/module-a/terragrunt.hcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-b/terragrunt.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terragrunt-module1/module-b/terragrunt.hcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-c/terragrunt.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terragrunt-module1/module-c/terragrunt.hcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-d/terragrunt.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terragrunt-module1/module-d/terragrunt.hcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-e/terragrunt.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terragrunt-module1/module-e/terragrunt.hcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-f/terragrunt.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terragrunt-module1/module-f/terragrunt.hcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terragrunt-module-2/module-a/terragrunt.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terragrunt-module2/module-a/terragrunt.hcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terragrunt-module-2/module-b/terragrunt.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terragrunt-module2/module-b/terragrunt.hcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terragrunt-module-2/module-c/terragrunt.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terragrunt-module2/module-c/terragrunt.hcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terragrunt-module-2/module-d/terragrunt.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terragrunt-module2/module-d/terragrunt.hcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terragrunt-module-2/module-e/terragrunt.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terragrunt-module2/module-e/terragrunt.hcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terragrunt-module-2/module-f/terragrunt.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/terragrunt-module2/module-f/terragrunt.hcl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alfiia/IdeaProjects/scalr-terragrunt-simple&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Alfiia/IdeaProjects/scalr-terragrunt-simple/terragrunt-module-2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alfiia\IdeaProjects\scalr-terragrunt-simple\terragrunt-module-2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alfiia\IdeaProjects\scalr-terragrunt-simple\terragrunt-module1" />
       <recent name="C:\Users\Alfiia\IdeaProjects\scalr-terragrunt-simple" />
     </key>
   </component>
