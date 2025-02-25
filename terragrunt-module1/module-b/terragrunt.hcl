@@ -3,12 +3,10 @@ include {
 }
 
 terraform {
-  source = "../base/main.tf"
+  source = "../../base/main.tf"
 }
 
-
-
 inputs = {
-  module_name = "module-e"
-  resource_id = "resource-003"
+  module_name = "module-b"
+  resource_id = "resource-002"
 }
