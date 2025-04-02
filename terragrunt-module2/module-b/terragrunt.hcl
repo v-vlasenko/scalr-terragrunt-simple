@@ -19,7 +19,7 @@ dependency "modulea" {
 */
 
 inputs = {
- # module_name = dependency.modulea.outputs.module_name
+  module_name = "boop-module"
   resource_id = "resource-002"
 }
 
