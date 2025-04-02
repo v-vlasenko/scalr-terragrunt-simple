@@ -16,8 +16,10 @@ dependency "modulea" {
   mock_outputs_allowed_terraform_commands = ["validate", "plan", "init"]
 }
 
+*/
+
 inputs = {
  # module_name = dependency.modulea.outputs.module_name
   resource_id = "resource-002"
 }
-*/
+
