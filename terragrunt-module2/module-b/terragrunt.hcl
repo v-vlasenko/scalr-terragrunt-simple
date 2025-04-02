@@ -6,6 +6,7 @@ terraform {
   source = "../../base/main.tf"
 }
 
+/*
 dependency "modulea" {
   config_path = "../../terragrunt-module1/module-a"
   mock_outputs = {
@@ -19,3 +20,4 @@ inputs = {
  # module_name = dependency.modulea.outputs.module_name
   resource_id = "resource-002"
 }
+*/
