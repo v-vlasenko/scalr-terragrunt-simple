@@ -6,7 +6,7 @@ generate "backend" {
   contents = <<EOF
 terraform {
   backend "s3" {
-    bucket         = "vlad-terra-bucket"
+    bucket         = "terra-vlad-bucket"
     key            = "global/s3/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
